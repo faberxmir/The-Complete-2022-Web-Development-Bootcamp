@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oxygen:wght@700&display=swap');
+
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Oxygen', sans-serif; */
+body{
+    font-family: 'Oxygen', sans-serif; 
+
+}
+
+h1,h2,h3,h4,h5 {
+    color: rgb(49, 0, 95);
+}
+
+/* ---------------Top part of the page - clouds, mountain and heading---------------- */
+#frontpage {
+    padding-top: 100px;
+    background-color: rgb(197, 231, 245);
+}
+
+#frontpage div{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    width: fit-content;
+}
+
+#frontpage h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+#frontpage h2 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 2;
+}
+#frontpage span{
+    text-decoration: underline;
+}
+
+#top-cloud{
+    position: absolute;
+    right: -150px;
+    top: 50px;
+}
+
+#bottom-cloud{
+    position: absolute;
+    left: -150px;
+    bottom: 300px;
+
+}
+/* END---------------Top part of the page - clouds, mountain and heading----------------END */
+
+#introduction {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#introduction img {
+    border-radius: 50%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.skill-row img{
+    height: 25%;
+    border-radius: 50%;
+}
+
+.skill-row-left-img img{
+    float: left;
+    margin-right: 2em;
+}
+
+.skill-row-right-img img{
+    float: right;
+    margin-left: 2em;
+}
+
+hr {
+    border-style: dotted;
+    width: 10%;
+    border-width: 1em 0 0 0;
+    color: gray;
+}
+
+/* ---------------------------------Get in touch------------------------------------- */
+#contact {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#contact button {
+    background-color: rgb(197, 231, 245);
+    border: none;
+    border-radius: 1em;
+    font-size: 3em;
+    padding: 0.5em;
+    font-family: 'oxygen';
+    color: rgb(49, 0, 95);
+    margin-top: 50px;
+}
+/* END----------------------------- Get in touch ---------------------------------END */
+
+footer {
+    background-color: rgb(197, 231, 245); 
+    color: rgb(49, 0, 95);
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+    padding: 2em 0.5em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+    padding-bottom: 25px;
+}
